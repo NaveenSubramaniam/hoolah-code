@@ -1,19 +1,19 @@
 # hoolah-code
-It is an maven project
+	It is an maven project
 
 Building :
 
-1. Set  JAVA_HOME. Java 1.8 is .(Mine 1.8.0_231)
-2. Set Maven home.  Mine: Apache Maven 3.5.2 
-3. Download repository to your local
-4. Navigate to the path where pom.xml located
-5. Execute this
+- Set  JAVA_HOME. Java 1.8 	(Mine 1.8.0_231)
+- Set Maven home.  Mine: Apache Maven 3.5.2 
+- Download repository to your local
+- Navigate to the path where pom.xml located
+- Execute 
 maven install 
-6. Jar will be generated under target
+- Jar will be generated under target
 
 Running:
 1. Navigate to target folder
-java -jar TranStat-0.0.1-jar-with-dependencies.jar <<full path of transaction CSV>>
+java -jar TranStat-0.0.1-jar-with-dependencies.jar "full path of transaction CSV"
 2. Key in Merchant, Start date and End date through command line
 
 Sample output:
